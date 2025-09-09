@@ -154,8 +154,6 @@ li {
     font-size: 1.4em;
   }
 
-  .main-content {
-    padding: 20px;
   }
 
   section {
@@ -172,3 +170,4 @@ li {
     gap: 8px;
   }
 }
+
