@@ -9,12 +9,25 @@ body {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
     max-width: 900px;
     margin: 40px auto;
     background: #000000;
     border-radius: 12px;
     box-shadow: 0 4px 24px rgba(23, 97, 199, 0.10);
     overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .container {
+        flex-direction: column;
+        width:100%;
+        padding:20px;
+    }
 }
 
 .sidebar {
