@@ -19,16 +19,7 @@ body {
     overflow: hidden;
 }
 
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-    .container {
-        flex-direction: column;
-        width:100%;
-        padding:20px;
-    }
-}
+
 
 .sidebar {
     background: #270c5e;
@@ -133,17 +124,48 @@ li {
     margin-bottom: 8px;
 }
 
-@media (max-width: 800px) {
-    .container {
-        flex-direction: column;
-    }
-    .sidebar {
-        width: 100%;
-        flex-direction: row;
-        justify-content: flex-start;
-        padding: 24px 16px;
-    }
-    .main-content {
-        padding: 24px 12px;
-    }
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .sidebar {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 16px;
+  }
+
+  .foto-perfil {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 12px;
+  }
+
+  .nome {
+    font-size: 1.4em;
+  }
+
+  .main-content {
+    padding: 20px;
+  }
+
+  section {
+    padding: 16px;
+  }
+
+  h2 {
+    font-size: 1em;
+    padding-left: 8px;
+  }
+
+  .sociais {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
 }
