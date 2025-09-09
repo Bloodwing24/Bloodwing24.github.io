@@ -130,10 +130,10 @@ li {
   }
 
   .container {
-    flex-direction: column;
-    width: 90%;
+    width: 95%;
     align-items: center;
     padding-right: 24px;
+    padding-left: 24px;
   }
 
   .sidebar {
@@ -153,8 +153,9 @@ li {
   .nome {
     font-size: 1.4em;
   }
+
   .main-content {
-    padding: 20px;
+    padding: 16px;
   }
 
   section {
@@ -171,5 +172,3 @@ li {
     gap: 8px;
   }
 }
-
-
